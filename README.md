@@ -1,4 +1,19 @@
 # oerv2
-test to get minima running remotely.
+(draft)
 
-see if I can embed a pdf....
+A site to collect all my OER.
+
+- pdf slides
+- reports
+- teaching syllabi
+- assessment rubriks
+- feedback mechanisms 
+- learning design
+
+---
+
+
+
+
+
+
