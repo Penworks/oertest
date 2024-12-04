@@ -1,56 +1,7 @@
 ---
-title: Welcome
+title: Home
 layout: default
 ---
 
-Hello, Minima!
+This is a repository of Opn Educational Resources created over the past 10 tyears by Pen Lister. Content can be viewed from this github Pages site, or using the front end available from my website at https://penworks.net. All content is licneced under a CC BY SA NC licence - you can make derivatives, use the ste as a source of ideas and inspiration, take sections from PDFs etc, but always please crediot. Please dont use anything for commercial contexts without my prior permnission.
 
-
-Welcome to markdown madness. We hope you **really** enjoy using good old text for writing.
-
-Just type some [markdown](http://en.wikipedia.org/wiki/Markdown)
-and jekyll will automatically turn it into hypertext markup language (HTML). *Simple as that.*
-
-> Quote goes here.
-
-A list:
-
-- One
-- Two
-- Three
-
-Some inline code `to_html` and a preformatted code block:
-
-```
-Kramdown::Document.new( 'Hello Markdown!' ).to_html
-```
-
-with code highlighting:
-
-``` ruby
-# The Greeter class
-
-class Greeter
-  def initialize(name)
-    @name = name.capitalize
-  end
-
-  def salute
-    puts "Hello #{@name}!"
-  end
-end
-
-# Create a new object
-g = Greeter.new("world")
-
-# Output "Hello World!"
-g.salute
-```
-
-Or try
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
