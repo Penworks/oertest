@@ -1,10 +1,14 @@
 ---
 title: 
-layout: default
+layout: post
 ---
 
-## Presentations from 2014 (draft)
+
+(Draft layout in site build)
+
+## Presentations from 2014
 
 
+### Changing Purposes and Priorities in Higher Education
 
-<embed src="/assets/slides/changing-purposes-_-priorities-for-higher-education.pdf" type="application/pdf" width=100% height=850px />
+<object data="../../../assets/slides/changing-purposes-_-priorities-for-higher-education.pdf" width="600" height="450" type='application/pdf'></object>

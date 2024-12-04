@@ -18,7 +18,7 @@ thumbsurl: "/assets/thumbs/"
 ### let's use the minima theme (see https://github.com/jekyll/minima)
 
 theme: minima
-
+#remote_theme: jekyll/minima
 
 ### exclude the instructions / write-up in the README.md
 

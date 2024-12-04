@@ -1,6 +1,6 @@
 ---
 title: Sitemap
-layout: default
+layout: page
 ---
 
 ## Sitemap
