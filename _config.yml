@@ -8,7 +8,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 tagline: Open Education for all
 baseurl: "/oerv2" # the subpath of your site, e.g. /blog
 url: "https://penworks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:year/:month/:day/:title:output_ext
+github_username:  penworks
 
+imagesurl: "/assets/galleries/"
+thumbsurl: "/assets/thumbs/"
+#pdfsurl: "assets/slides"
 
 ### let's use the minima theme (see https://github.com/jekyll/minima)
 
