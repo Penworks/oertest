@@ -11,8 +11,10 @@ url: "https://penworks.github.io" # the base hostname & protocol for your site, 
 permalink: /:year/:month/:day/:title:output_ext
 github_username:  penworks
 
-imagesurl: "/assets/galleries/"
+imagesurl: "/assets/images/"
 thumbsurl: "/assets/thumbs/"
+slidesurl: "/assets/slides/"
+pdfdocurl: "/assets/pdfdocs/"
 #pdfsurl: "assets/slides"
 
 ### let's use the minima theme (see https://github.com/jekyll/minima)

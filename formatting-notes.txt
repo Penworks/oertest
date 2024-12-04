@@ -1,4 +1,33 @@
 
+GENERAL NOTES CODE SNIPPETS ETC
+
+========================
+
+
+
+<!-- <div style="margin: 5px 0 10px 0; border: 1px solid #ddd; border-radius: 8px; width:400px; height: 250px; overflow: hidden;"><object data="../../../assets/slides/changing-purposes-_-priorities-for-higher-education.pdf" allowfullscreen allowPresent width="100%" height="100%" type='application/pdf'><p>It appears you don't have a PDF plugin for this browser.
+     No problem, you can still <a href="../../../assets/slides/changing-purposes-_-priorities-for-higher-education.pdf">download the PDF file.</a></p></object>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ===============================================
 FROM THE OLD INDEX OF THE 60 SECOND MINIMA SITE AT 
 https://github.com/henrythemes/hello-minima-theme.git
@@ -57,3 +86,6 @@ Or try
 ## Heading 2
 
 ### Heading 3
+
+
+===================================
