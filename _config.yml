@@ -1,6 +1,13 @@
 ### your site title here
 
-title: Penworks OER (draft)
+title: Penworks OER
+description: >- # this means to ignore newlines until "baseurl:"
+  This is a repository of Open Educational Resources created over the past 10 years by Pen Lister. 
+  Content can be viewed from this Github Pages site, or using the front end available from my website at 
+  https://penworks.net. All content is licensed under a CC BY SA NC license.
+tagline: Open Education for all
+baseurl: "/oerv2" # the subpath of your site, e.g. /blog
+url: "https://penworks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 ### let's use the minima theme (see https://github.com/jekyll/minima)
