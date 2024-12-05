@@ -9,8 +9,10 @@ tagline: Open Education for all
 baseurl: "/oerv2" # the subpath of your site, e.g. /blog
 url: "https://penworks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:title:output_ext
+#permalink: /:title:output_ext
 github_username:  penworks
 
+subpagesurl: "/subpages/"
 imagesurl: "/assets/images/"
 thumbsurl: "/assets/thumbs/"
 slidesurl: "/assets/slides/"
@@ -19,8 +21,8 @@ pdfdocurl: "/assets/pdfdocs/"
 
 ### let's use the minima theme (see https://github.com/jekyll/minima)
 
-theme: minima
-#remote_theme: jekyll/minima
+#theme: minima
+remote_theme: jekyll/minima
 
 ### exclude the instructions / write-up in the README.md
 

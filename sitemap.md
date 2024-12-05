@@ -3,11 +3,10 @@ title: Sitemap
 layout: page
 ---
 
-## Sitemap
 
 The following are links to main sections of the content divided into 
 
-- pdf slides
+-  [pdf slides]({{site.subpagesurl | prepend: site.baseurl }}pdf-slides): An introduction to this site.
 - reports
 - teaching syllabi
 - assessment rubriks

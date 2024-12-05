@@ -1,6 +1,7 @@
 ---
 title: PDF Slides
-layout: page
+layout: base
+exclude: true
 ---
 
 
@@ -9,9 +10,9 @@ layout: page
 <!-- <object data="assets/slides/changing-purposes-_-priorities-for-higher-education.pdf" width="1000" height="1000" type='application/pdf'></object> -->
 
 
-## Posts in date order
+## Posts in date order (for the time being)
 
-For the time being, these pages will hold multiple PDF files or documents in relation to 'year'.
+For the time being, these pages will hold multiple PDF files or documents in relation to 'year'. Draft layout sketching.
 
 <nav>
   <ul id="list-nav">
