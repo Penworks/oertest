@@ -5,3 +5,40 @@
  @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+
+.grid-box {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 10px 10px; /* row-gap column gap */
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333;
+    padding-top: 15px 5px 15px 20px;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
+
+.grid-item img {
+    width: 250px;
+    object-fit:cover;
+}
+
+.grid-item {
+        flex-basis: auto; /* default auto */
+        min-height: 130px;
+    width: 260px;
+    display: inline-block;
+    padding: 5px 5px 5px 10px;
+    margin: 5px 5px 5px 10px;
+    opacity: 0.8;
+    background-color: #ddd;
+    border-radius: 2px;
+}
+
+.grid-item hover {
+     opacity: 1;    
+}
