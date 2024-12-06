@@ -34,4 +34,18 @@
 
   </div>
 
+<script src="{{ site.baseurl }}/assets/js/jekyll-search.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  SimpleJekyllSearch.init({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    dataSource: '{{ site.baseurl }}/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}"><h5 class="archive__item-title" itemprop="headline">{title}<\/h5><p class="archive__item-excerpt" itemprop="description">{desc}<\/p><\/a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: true,
+  });
+</script>
+
 </footer>

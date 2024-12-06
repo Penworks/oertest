@@ -26,3 +26,13 @@ Content can be viewed from this Github Pages site, or using the OER area (soon t
 
 
 
+---
+### Search the site
+
+<!-- Html Elements for Search -->
+<div id="search-container">
+<input type="text" id="search-input" placeholder="search...">
+<ul id="results-container"></ul>
+</div>
+
+

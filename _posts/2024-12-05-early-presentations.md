@@ -1,14 +1,11 @@
 ---
 title: Early Presentations
 layout: post
+description: "some blurb about the page"
 ---
 
 
-(Draft layout in site build)
-
-
-blurb 
-
+This page contains some early presentations for conferences and seminars between 2012-2014. The work consists of education, terchnology and commercial web presence. 
 
 
 <div class="related">

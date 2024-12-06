@@ -4,6 +4,8 @@ layout: page
 ---
 
 
+
+
 The following are links to main sections of the content divided into loose areas of scope. Brief explainers are provided. 
 
 ### [PDF Slides]({{site.subpagesurl | prepend: site.baseurl }}pdf-slides) 
