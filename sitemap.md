@@ -1,6 +1,7 @@
 ---
 title: Sitemap
 layout: page
+exclude: true
 ---
 
 

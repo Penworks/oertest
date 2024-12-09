@@ -1,13 +1,13 @@
 ---
-title: About
+title: Bio
 layout: page
 ---
 
 
 
-I’m been a lecturer in web apps and multimedia and a senior lecturer in technology enhanced learning in UK higher education, working for ten years at London Metropolitan University, a large urban widening participation university. When I worked there we had a community of 40,000 people and spoke 180 languages.
+I’m a former lecturer in web apps and multimedia and senior lecturer in technology enhanced learning in UK higher education, working for in total eleven years at London Metropolitan University, a large urban widening participation university. When I worked there btween 2006-2015 we had a community of 40,000 people and spoke 180 languages.
 
-I have a PhD in smart learning, investigating how people learn using augmented reality and creative activities.
+I have a PhD in smart learning (2021), investigating how people learn using augmented reality and creative activities.
 
 I’ve carried out large scale website evaluations and usability testing on a few cool projects. I learned a lot.
 

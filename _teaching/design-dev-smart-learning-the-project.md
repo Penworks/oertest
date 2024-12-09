@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Design and Development of Smart Learning - managing the project
+title: "Design and Development of Smart Learning: (1) managing the project"
 authors: Pen Lister
 publication: "Lecture, University of Malta"
 year: 2019

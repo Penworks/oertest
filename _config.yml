@@ -1,6 +1,9 @@
 ### your site title here
 
 title: Penworks OER
+author:
+    name: Pen Lister
+    # email: drpenworks@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is a repository of Open Educational Resources created over the past 10 years by Pen Lister. 
   Content can be viewed from this Github Pages site, or using the front end available from my website at 
@@ -10,7 +13,10 @@ baseurl: "/oerv2" # the subpath of your site, e.g. /blog
 url: "https://penworks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:title:output_ext
 #permalink: /:title:output_ext
+
+# social_links: 
 github_username:  penworks
+mastodon_username: DrPen
 
 subpagesurl: "/subpages/"
 imagesurl: "/assets/images/"
@@ -30,15 +36,36 @@ exclude:
 - README.md
 
 collections:
-    teaching:
-      layout: default
-      output: true
-      permalink: /:collection/:name
-    projects:
-      layout: default
-      output: true
-      permalink: /:collection/:name
-    talks:
-      layout: default
-      output: true
-      permalink: /:collection/:name 
+      teaching:
+          layout: base
+          output: true
+          permalink: /:collection/:name
+      projects:
+          layout: base
+          output: true
+          permalink: /:collection/:name
+      talks:
+          layout: base
+          output: true
+          permalink: /:collection/:name 
+
+# Generate social links in footer.
+# social_links:
+  #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
+  #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+  #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+  #  - { platform: github,         user_url: "https://github.com/jekyll/minima" }
+  #   - { platform: gitlab,         user_url: "https://gitlab.com/penworks" }
+  #  - { platform: mastodon,       user_url: "https://mastodon.social/@DrPen" }
+  #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+  #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+  #  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+  #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+  #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+  #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+  #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
+  #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+  #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
+  #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }

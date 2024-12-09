@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: "Design and Development of Smart Learning - content & legal"
+title: "Design and Development of Smart Learning: (3) content & legal"
 authors: Pen Lister
 publication: Lecture, University of Malta
 year: 2019
