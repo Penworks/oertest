@@ -56,13 +56,13 @@ collections:
 # Generate social links in footer.
 minima:
   social_links:
-    - { platform: rss, user_url: "https://mysite.com/feed.xml" }
-    - { platform: github, user_url: "https://github.com/Penworks" }
-    - { platform: mastodon, user_url: "https://mastodon.social@DrPen" }
-  # github: Penworks
-  # mastodon:
-  #    - username: DrPen
-  #      instance: mastodon.social 
+     - { platform: rss, user_url: "https://mysite.com/feed.xml" }
+     - { platform: github, user_url: "https://github.com/Penworks" }
+     - { platform: mastodon, user_url: "https://mastodon.social/@DrPen" }
+    # github: Penworks
+    # mastodon:
+    #   - username: DrPen
+    #     instance: mastodon.social 
 
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
