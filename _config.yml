@@ -15,8 +15,12 @@ permalink: /:year/:month/:day/:title:output_ext
 #permalink: /:title:output_ext
 
 # social_links: 
-github_username:  penworks
-mastodon_username: DrPen
+#github_username: Penworks
+
+#mastodon social
+# mastodon:
+#  - username: DrPen
+#    instance: mastodon.social
 
 subpagesurl: "/subpages/"
 imagesurl: "/assets/images/"
@@ -50,13 +54,22 @@ collections:
           permalink: /:collection/:name 
 
 # Generate social links in footer.
-# social_links:
+minima:
+  social_links:
+    - { platform: rss, user_url: "https://mysite.com/feed.xml" }
+    - { platform: github, user_url: "https://github.com/Penworks" }
+    - { platform: mastodon, user_url: "https://mastodon.social@DrPen" }
+  # github: Penworks
+  # mastodon:
+  #    - username: DrPen
+  #      instance: mastodon.social 
+
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-  #  - { platform: github,         user_url: "https://github.com/jekyll/minima" }
-  #   - { platform: gitlab,         user_url: "https://gitlab.com/penworks" }
+
+  #  - { platform: gitlab,         user_url: "https://gitlab.com/penworks" }
   #  - { platform: mastodon,       user_url: "https://mastodon.social/@DrPen" }
   #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
   #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
