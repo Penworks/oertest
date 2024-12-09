@@ -1,0 +1,39 @@
+---
+layout: base
+---
+
+<div class="page">
+
+  <h2 class="project-page-title">{{ page.title }}</h2>
+
+  <div class="pubmeta-info">
+    {{ page.authors }}
+    <br />
+    {{ page.teaching }}{{ page.year}}
+  </div>
+
+  <div class="pub-image">
+    <img src="{{ site.imagesurl | prepend: site.baseurl }}{{ page.slug }}.png" alt="project teaser"/>
+  </div>
+
+  <h3 class="project-page-subheader">Summary</h3>
+
+  <div class="project-page-content">{{ content }}</div>
+
+  <h3 class="project-page-subheader">Downloads</h3>
+
+  <div class="pubmeta-info">
+    
+   {% if page.slides %}
+    <a href="{{ site.slidesurl | prepend: site.baseurl }}{{ page.slug }}_slides.pdf"><i class="far fa-file-pdf"></i> Slides</a>&nbsp;&nbsp;
+    {% endif %}
+    {% if page.paper %}
+    <a href="/download/{{ page.slug }}.pdf"><i class="far fa-file-pdf"></i>Paper/Report</a>&nbsp;&nbsp;
+    {% endif %}
+<!--     <a href="/download/{{ page.slug }}.bib"><i class="far fa-file-alt"></i> BibTex</a>&nbsp;&nbsp; -->
+    {% if page.doi %}
+    <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a>&nbsp;&nbsp;
+    {% endif %}
+  </div>
+
+</div>

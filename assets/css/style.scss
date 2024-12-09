@@ -51,15 +51,15 @@ the gridbox taken from smart learning related posts
     filter: drop-shadow(2px 2px 3px #b5a6a6);
     */
 
-    width: 300px;
-    height: 190px; 
+    width: 200px;
+    height: 140px; 
     object-fit:cover;
 }
 
 .grid-item {
     flex-basis: auto; /* default auto */
     min-height: 130px;
-    width: 300px;
+    width: 200px;
     display: inline-block;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 10px;
@@ -73,11 +73,59 @@ the gridbox taken from smart learning related posts
 }
 
 .grid-item h5 {
-    border-top: 5px solid #999;
+    border-top: 5px solid #999;    
+    border-bottom: 1px solid #999;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin-top:10px;
+    font-weight:600;
 }
 
 .grid-item hover {
      opacity: 3;    
+}
+
+.grid-item > .pubmeta-short, .publinks {
+    font-size: 0.7em;
+}
+
+.project-page-title {
+    border-top: 5px solid #999;    
+    border-bottom: 1px solid #999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:10px;
+    font-weight:600;
+}
+
+.project-page-subheader {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    font-weight:600;
+}
+
+.pubmeta-info {
+    border-bottom: 1px solid #999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+    font-weight:600;
+}
+
+.pub-image {
+    border-bottom: 1px solid #999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.project-page-content {
+    border-bottom: 1px solid #999;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.project-page-content h2, h3, h4, h5, h6 {
+        font-weight:600;
 }

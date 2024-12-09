@@ -1,0 +1,84 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+ @import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize"; 
+
+
+
+
+.post-content h5 { 
+        font:inherit;
+        font-size: 1em;
+        font-weight:700;margin-top: 10px;
+}
+
+
+
+
+/* ====
+the gridbox taken from smart learning related posts 
+======*/
+
+.grid-box {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px 10px; /* row-gap column gap */
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333;
+    padding: 20px 10px 20px 10px;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
+
+.grid-item img {
+    
+    
+   /*border-bottom: 5px solid #999;
+    outline: 5px solid #fff;
+    outline-offset: 0px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    margin: 5px 2px 10px 5px;
+    width:400px; 
+    overflow: hidden;
+    filter: drop-shadow(2px 2px 3px #b5a6a6);
+    */
+
+    width: 300px;
+    height: 190px; 
+    object-fit:cover;
+}
+
+.grid-item {
+    flex-basis: auto; /* default auto */
+    min-height: 130px;
+    width: 300px;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 10px;
+    opacity: 0.8;
+    /*background-color: #eeeee4;
+    background-color: #cde9e7;
+    border-radius: 2px;*/
+    padding-bottom: 20px;
+    /*filter: drop-shadow(6px 4px 5px #b5a6a6);*/
+    box-shadow: 5px 5px 10px 1px #ddd9d9;
+}
+
+.grid-item h5 {
+    border-top: 5px solid #999;
+    padding-top: 10px;
+    margin-top:10px;
+    font-weight:600;
+}
+
+.grid-item hover {
+     opacity: 3;    
+}

@@ -16,7 +16,7 @@ subpagesurl: "/subpages/"
 imagesurl: "/assets/images/"
 thumbsurl: "/assets/thumbs/"
 slidesurl: "/assets/slides/"
-pdfdocurl: "/assets/pdfdocs/"
+#pdfdocurl: "/assets/pdfdocs/"
 #pdfsurl: "assets/slides"
 
 ### let's use the minima theme (see https://github.com/jekyll/minima)
@@ -28,3 +28,17 @@ remote_theme: jekyll/minima
 
 exclude:
 - README.md
+
+collections:
+    teaching:
+      layout: default
+      output: true
+      permalink: /:collection/:name
+    projects:
+      layout: default
+      output: true
+      permalink: /:collection/:name
+    talks:
+      layout: default
+      output: true
+      permalink: /:collection/:name 
