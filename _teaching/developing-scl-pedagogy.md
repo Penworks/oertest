@@ -2,7 +2,7 @@
 layout: publication
 title: "Developing A Pedagogy Fit for Smart Learning"
 authors: Pen Lister
-publication: 
+publication: preprint
 year: 2017
 doi: null
 slides: true

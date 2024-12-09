@@ -2,7 +2,7 @@
 layout: publication
 title: "Changing Purposes and Priorities in Higher Education"
 authors: Pen Lister
-publication: 
+publication: MA module submitted paper
 year: 2013
 doi: https://dx.doi.org/10.13140/RG.2.1.4282.3521
 slides: true
