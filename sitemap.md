@@ -9,8 +9,14 @@ exclude: true
 
 The following are links to main sections of the content divided into loose areas of scope. Brief explainers are provided. 
 
-### [PDF Slides]({{site.subpagesurl | prepend: site.baseurl }}pdf-slides) 
-This page contains a series of pages that link to collections of slides, grouped by when they were created and topics covered. Slides are in PDF form and are either conference presentations, seminar talks, guest lectures and doctoral work. [Browse slide collections >>]({{site.subpagesurl | prepend: site.baseurl }}pdf-slides) 
+### All Materials
+This site contains a series of pages that link to collections of slides and other materials, grouped by the main purpose they were created for. Slides are in PDF form and are either conference presentations, seminar talks, guest lectures and doctoral work. Other included work consists of reports and academnic papers, or scoping documents and diagrams for projects. Some video and ausio work is available, especially in the Projects section. 
+
+Browse slide collections at
+
+ - [Teaching]({{site.subpagesurl | prepend: site.baseurl }}teaching)  
+ - [Talks]({{site.subpagesurl | prepend: site.baseurl }}talks)
+ - [Projects]({{site.subpagesurl | prepend: site.baseurl }}teaching)
 
 
 ### Reports and Guides
@@ -22,9 +28,9 @@ This page contains a series of pages that link to collections of slides, grouped
 
 ### Teaching & Assessment 
 
-- materials
+- lecture materials
 - rubriks
-- learning design
+- learning design approaches
 - feedback mechanisms 
 
 ### Extra Curricula Projects

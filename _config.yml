@@ -22,6 +22,12 @@ permalink: /:year/:month/:day/:title:output_ext
 #  - username: DrPen
 #    instance: mastodon.social
 
+# header_pages:
+#  - index.md
+#  - teaching.md
+#  - talks.md
+#  - projects.md
+
 subpagesurl: "/subpages/"
 imagesurl: "/assets/images/"
 thumbsurl: "/assets/thumbs/"
