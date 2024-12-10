@@ -7,6 +7,7 @@ year: 2019
 doi: null
 slides: true
 paper: false
+featured: true
 ---
 
 Post graduate guest lecture given to 2019/20 cohort of the International Masters in Adult Education for Social Change.

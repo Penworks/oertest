@@ -14,9 +14,9 @@ This site contains a series of pages that link to collections of slides and othe
 
 Browse slide collections at
 
- - [Teaching]({{site.subpagesurl | prepend: site.baseurl }}teaching)  
- - [Talks]({{site.subpagesurl | prepend: site.baseurl }}talks)
- - [Projects]({{site.subpagesurl | prepend: site.baseurl }}teaching)
+ - [Teaching]({{ site.baseurl }}/teaching)  
+ - [Talks]({{ site.baseurl }}/talks)
+ - [Projects]({{ site.baseurl }}/projects)
 
 
 ### Reports and Guides

@@ -2,24 +2,24 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <ul>
           <li><a href="{{ site.baseurl }}/sitemap">Sitemap</a></li>
           <li><a href="{{ site.baseurl }}/about">About Me</a></li>
         </ul>
-       <!--  <p class="feed-subscribe">
-          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p> -->
+
+<!-- Html Elements for Search -->
+<div id="search-container">
+  <h3>Search the site</h3>
+<input type="text" id="search-input" placeholder="search...">
+<ul id="results-container"></ul>
+</div>
+
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">Author: {{ site.author.name | escape }}</li>
+            <li class="p-name">Credit: {{ site.author.name | escape }}/ CC BY SA NC </li>
           {% endif -%}
           {% if site.author.email -%}
             <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>

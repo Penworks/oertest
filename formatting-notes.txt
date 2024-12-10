@@ -79,6 +79,35 @@ head.html
 
 
 
+Looping through front matter for soemthing true
+================================
+
+<!-- {%- assign fp = site.posts | where: 'featuredPost', true -%}
+{%- for fp in site.posts -%}
+  {{- post.title -}}
+{%- endfor -%} -->
+
+---
+
+<!-- {%- if featured == true -%}
+{% for featured in site.teaching %}
+  <h2>{{ teaching.title }}</h2>
+
+{%-endif -%}
+
+{% endfor %}
+ -->
+
+
+WORKS FOR FEATURED TRUE
+
+{% assign feat = site.teaching | where: "featured", true %} 
+{% for pub in feat %} 	 
+- {{ pub.title }} {{ pub.year }} {{ pub.featured }}
+{% endfor %}
+
+
+
 
 
 

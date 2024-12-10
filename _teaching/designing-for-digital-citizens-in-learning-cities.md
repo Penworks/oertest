@@ -7,6 +7,7 @@ year: 2019
 doi: http://dx.doi.org/XX.XXX/
 slides: true
 paper: true
+featured: true
 ---
 
 Technology and ideas for citizen engagement

@@ -13,20 +13,11 @@ The site also acts as a portfolio of work, to showcase my approach to creating c
 
 *Site design here uses Jekyll Minima with small modification and customisation. Design seeks to be as minimal as possible, as the site is primarily a repository of work.* 
 
----
 
-Guide to using the site is available in the [sitemap]({{ site.baseurl }}/sitemap).
-
-
-
+**Guide to using the site is available in the [sitemap]({{ site.baseurl }}/sitemap)**
 
 ---
-### Search the site
 
-<!-- Html Elements for Search -->
-<div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
-<ul id="results-container"></ul>
-</div>
 
+{% include featured.html %}
 
