@@ -140,7 +140,7 @@ the gridbox taken from smart learning related posts
 
 
 /* ======================
-featured on indix 
+featured on index 
 =========================*/
 
 .featured-grid-box {
@@ -161,13 +161,12 @@ featured on indix
 
 .featured-grid-item {
     flex-basis: auto; /* default auto */
-    min-height: 180px;
-    width: 200px;
+    min-height: 80px;
+    width: 80%;
     display: inline-block;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 20px 5px;
     margin: 5px 5px 5px 10px;
     opacity: 0.8;
-    padding-bottom: 20px;
     box-shadow: 5px 5px 10px 1px #ddd9d9;
 }
 
@@ -176,20 +175,22 @@ featured on indix
 }
 
 .featured-grid-item img {
-    width: 195px;
-    height: 130px; 
+    width: 150px;
+    height: 100px; 
     object-fit:cover;
-    margin-bottom:10px;
+    margin:10px 0px 10px 10px;
+    float:left;
 }
 
 .featured-grid-item h5 {
-    clear:both;
+    float:left;
     border-top: 5px solid #999;    
     border-bottom: 1px solid #999;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 15px 5px 10px 0px;
     font-weight:600;
     font-size: 0.9em;
+    min-width: 68%;
+    margin: 20px 5px 5px 5px;
 }
 
 .featured-grid-item > .pubmeta-short { 
@@ -200,6 +201,22 @@ featured on indix
     margin-bottom:2px;
 }
 
-.featured-grid-item > .publinks {
-    font-size: 0.9em;
+
+ .pub-featured-excerpt {
+    font-size:inherit;
+    font-style:italic;
+    float:left;
+    padding-left: 10px;
+    max-width:400px;
 }
+
+
+.featured-grid-item > .publinks {
+    /*border-top: 1px solid #999;
+    width: 100%;*/
+    font-size: 0.9em;
+    float:left;
+    padding-left: 10px;
+    clear:both;
+}
+
