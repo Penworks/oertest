@@ -20,6 +20,9 @@ permalink: /:year/:month/:day/:title:output_ext
 imagesurl: "/assets/images/"
 thumbsurl: "/assets/thumbs/"
 slidesurl: "/assets/slides/"
+teachingurl: "/teaching"
+talksurl: "/talks"
+projectsurl: "/projects"
 #pdfdocurl: "/assets/pdfdocs/"
 #pdfsurl: "assets/slides"
 
