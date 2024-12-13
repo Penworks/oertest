@@ -1,13 +1,18 @@
 ---
 layout: base
 title: Talks
+pagination:
+    enabled: true
+    collection: talks
 ---
+
+
 <h1>Talks, conferences and seminars</h1>
 <h4>Presentations about Education and Technology</h4>
-<p>These are a collection of slide presentations for conferences, seminars and workshop events.</p>
-<div class="grid-box">
-    {% assign talks = site.talks | sort: "year" | reverse %}
-    {% for pub in talks %}
+<p>A collection of slide presentations for conferences, seminars and workshop events.</p>
+<div class="grid-box"> 
+   <!--  {% assign talks = site.talks | sort: "year" | reverse %} -->
+    {% for pub in paginator.posts %}
     <!-- grid one -->
     <div class="grid-item">
         <a href="{{pub.url | prepend: site.baseurl }}">
@@ -28,5 +33,51 @@ title: Talks
             <a href="{{pub.url | prepend: site.baseurl }}"><i class="fas fa-arrow-right"></i> Project Page</a></strong>
         </div>
     </div>
-    {% endfor %}
+    {% endfor %} 
+</div>
+
+
+  <div>
+
+    <!-- 
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
+  {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+      {% if paginator.first_page %}
+      <li class="previous">
+          <a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">First</a>
+      </li>
+      {% endif %}
+
+      {% if paginator.previous_page %}
+      <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+
+      {% if paginator.page_trail %}
+        {% for trail in paginator.page_trail %}
+          <li {% if page.url == trail.path %}class="selected"{% endif %}>
+              <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
+          </li>
+        {% endfor %}
+      {% endif %}
+
+      {% if paginator.next_page %}
+      <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+
+       {% if paginator.last_page %}
+      <li class="previous">
+          <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">Last</a>
+      </li>
+      {% endif %}
+  </ul>
+  {% endif %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
 </div>
